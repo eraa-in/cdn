@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Portfolio Website",
+    "desc": "Showcase your work, skills, and achievements with a professionally designed portfolio website template.",
+    "demoUrl": "https://example.com/portfolio-demo",
+    "image": "portfolio.png",
+    "icon": "fa-regular fa-images"
+  },
+  {
+    "title": "Bio Link",
+    "desc": "Create a personalized link for influencers to share on their social media platforms, directing their audience to your content or products.",
+    "demoUrl": "https://example.com/influencer-demo",
+    "image": "bio.png",
+    "icon": "fa-regular fa-link"
+  },
+  {
+    "title": "Career Page",
+    "desc": "Attract top talent by creating a compelling career page that highlights job opportunities and company culture.",
+    "demoUrl": "https://example.com/career-demo",
+    "image": "career.png",
+    "icon": "fa-regular fa-briefcase"
+  },
+  {
+    "title": "Profile Page for Doctors",
+    "desc": "Create a professional online presence for doctors and medical professionals with a dedicated profile page to showcase their expertise and services.",
+    "demoUrl": "https://example.com/doctor-demo",
+    "image": "doctor.png",
+    "icon": "fa-regular fa-user-md"
+  },
+  {
+    "title": "Restaurant Online Order Page",
+    "desc": "Set up a seamless online ordering system for your restaurant, allowing customers to browse menus and place orders easily.",
+    "demoUrl": "https://cdn.dribbble.com/userupload/2806801/file/original-600b653931b5241e343a9ea1121fa073.png?compress=1&resize=1504x1128",
+    "image": "pos.png",
+    "icon": "fa-regular fa-utensils"
+  }
+]
