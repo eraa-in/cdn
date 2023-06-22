@@ -87,7 +87,8 @@
                 }
             },
             "category": "career",
-            "code": "careerv1"
+            "code": "careerv1",
+            "hasExtraPage": true
         }
     },
     {
@@ -148,7 +149,8 @@
                 }
             },
             "category": "food",
-            "code": "foodv1"
+            "code": "foodv1",
+            "hasExtraPage": true
         }
     }
 ]
