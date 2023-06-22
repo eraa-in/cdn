@@ -68,7 +68,6 @@
         "icon": "fa-regular fa-briefcase",
         "config": {
             "feilds": {
-
                 "profile": {
                     "label": "Company Logo"
                 },
@@ -100,7 +99,6 @@
         "icon": "fa-regular fa-user-md",
         "config": {
             "feilds": {
-
                 "profile": {
                     "label": "Profile Pic"
                 },
@@ -148,6 +146,35 @@
                     "suffix": ".eraa.link"
                 }
             },
+            "extraPage": [
+                {
+                    "field": "entityName",
+                    "label": "Entity Name",
+                    "type": "text",
+                    "rules": "required"
+                },
+                {
+                    "field": "teamSize",
+                    "label": "Team size",
+                    "type": "select",
+                    "options": [
+                        "1-5",
+                        "10+",
+                        "50+",
+                        "100+",
+                        "500+"
+                    ]
+                },
+                {
+                    "field": "resturantType",
+                    "label": "foodType",
+                    "type": "select",
+                    "options": [
+                        "Veg",
+                        "Non-Veg"
+                    ]
+                }
+            ],
             "category": "food",
             "code": "foodv1",
             "hasExtraPage": true
