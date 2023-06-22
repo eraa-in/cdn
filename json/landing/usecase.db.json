@@ -87,7 +87,39 @@
             },
             "category": "career",
             "code": "careerv1",
-            "hasExtraPage": true
+            "hasExtraPage": true,
+
+            "extraPage": [
+                {
+                    "field": "entityName",
+                    "label": "Business Registered Name",
+                    "type": "text",
+                    "rules": "required"
+                },
+                {
+                    "field": "teamSize",
+                    "label": "Team size",
+                    "type": "select",
+                    "options": [
+                        "1-5",
+                        "10+",
+                        "50+",
+                        "100+",
+                        "500+"
+                    ]
+                },
+                {
+                    "field": "industry",
+                    "label": "Industry Domain",
+                    "type": "select",
+                    "options": [
+                        "IT",
+                        "Accounts & Financial",
+                        "Sports",
+                        "Entertainment"
+                    ]
+                }
+            ]
         }
     },
     {
@@ -149,7 +181,7 @@
             "extraPage": [
                 {
                     "field": "entityName",
-                    "label": "Entity Name",
+                    "label": "Restaurant Business Name",
                     "type": "text",
                     "rules": "required"
                 },
@@ -166,8 +198,13 @@
                     ]
                 },
                 {
+                    "field": "gst",
+                    "label": "GST",
+                    "type": "text"
+                },
+                {
                     "field": "resturantType",
-                    "label": "foodType",
+                    "label": "Type of food serving",
                     "type": "select",
                     "options": [
                         "Veg",
