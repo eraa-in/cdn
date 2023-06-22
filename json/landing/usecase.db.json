@@ -16,6 +16,9 @@
                 },
                 "entity": {
                     "hide": true
+                },
+                "bio": {
+                    "label": "Bio"
                 }
             },
             "category": "profile",
@@ -39,6 +42,9 @@
                 },
                 "entity": {
                     "hide": true
+                },
+                "bio": {
+                    "label": "Bio"
                 }
             },
             "category": "profile",
@@ -63,6 +69,9 @@
                 },
                 "entity": {
                     "hide": true
+                },
+                "bio": {
+                    "label": "About Company"
                 }
             },
             "category": "career",
@@ -87,6 +96,9 @@
                 },
                 "entity": {
                     "hide": true
+                },
+                "bio": {
+                    "label": "About me"
                 }
             },
             "category": "profile",
@@ -110,6 +122,9 @@
                 },
                 "entity": {
                     "label": "Company Name"
+                },
+                "bio": {
+                    "label": "About us"
                 }
             },
             "category": "food",
