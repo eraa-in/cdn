@@ -8,6 +8,9 @@
         "icon": "fa-regular fa-images",
         "config": {
             "feilds": {
+                "profile": {
+                    "label": "Profile Pic"
+                },
                 "company": {
                     "label": "Profile Name"
                 },
@@ -28,6 +31,9 @@
         "icon": "fa-regular fa-link",
         "config": {
             "feilds": {
+                "profile": {
+                    "label": "Profile Pic"
+                },
                 "company": {
                     "label": "Your name"
                 },
@@ -48,6 +54,10 @@
         "icon": "fa-regular fa-briefcase",
         "config": {
             "feilds": {
+
+                "profile": {
+                    "label": "Company Logo"
+                },
                 "company": {
                     "label": "Company Name"
                 },
@@ -68,6 +78,10 @@
         "icon": "fa-regular fa-user-md",
         "config": {
             "feilds": {
+
+                "profile": {
+                    "label": "Profile Pic"
+                },
                 "company": {
                     "label": "Doctor's name"
                 },
@@ -88,6 +102,9 @@
         "icon": "fa-regular fa-utensils",
         "config": {
             "feilds": {
+                "profile": {
+                    "label": "Logo"
+                },
                 "company": {
                     "label": "Restaurant Name"
                 },
