@@ -1,0 +1,523 @@
+[
+  {
+    "id": 9977573009151750000,
+    "component": "Content1",
+    "componentPath": "content/Content1",
+    "props": {
+      "h1": "Craft your design.",
+      "p": "Building beautiful designs for your next project. We've unlocked the secret to converting visitors into customers. Download our re-usable and extandable components today."
+    },
+    "form": [
+      {
+        "name": "h1",
+        "label": "Heading",
+        "$formkit": "text"
+      },
+      {
+        "name": "p",
+        "label": "Paragraph",
+        "$formkit": "text"
+      }
+    ],
+    "title": "Content Page",
+    "category": "career",
+    "type": "content",
+    "sort": "1",
+    "free": "true"
+  },
+  {
+    "id": 5501722334683645000,
+    "component": "Content2",
+    "componentPath": "content/Content2",
+    "props": {
+      "h2": "subtitle text",
+      "p1": "Build your next great idea",
+      "p2": "Are you ready to start building the next great idea. You can start off by using our design components to help tell you story and showcase your great idea."
+    },
+    "form": [
+      {
+        "name": "h2",
+        "label": "Heading",
+        "$formkit": "text"
+      },
+      {
+        "name": "p1",
+        "label": "Paragraph 1",
+        "$formkit": "text"
+      },
+      {
+        "name": "p2",
+        "label": "Paragraph 2",
+        "$formkit": "text"
+      }
+    ],
+    "title": "Content Style 2",
+    "category": "career",
+    "type": "content",
+    "sort": "2",
+    "free": "true"
+  },
+  {
+    "id": 7000554504411400000,
+    "component": "Content3",
+    "componentPath": "content/Content3",
+    "props": {
+      "propName": "Craft your design.",
+      "linktext": "Craft your design.",
+      "link": "https://google.com"
+    },
+    "form": [
+      {
+        "name": "propName",
+        "label": "Heading",
+        "$formkit": "text"
+      },
+      {
+        "name": "linktext",
+        "label": "Link text",
+        "$formkit": "text"
+      },
+      {
+        "name": "link",
+        "label": "link",
+        "$formkit": "text"
+      }
+    ],
+    "title": "Content Page 3",
+    "category": "career",
+    "type": "content",
+    "sort": "1",
+    "free": "true"
+  },
+  {
+    "id": 1137092454436650100,
+    "component": "Feature1",
+    "componentPath": "feature/Feature1",
+    "props": {
+      "c": {
+        "a1": {
+          "value": "Click here !!!",
+          "class": "text-red-500 underline my-8",
+          "href": "http://eraa.in",
+          "target": "_blank"
+        },
+        "h2": {
+          "value": "Craft your design.",
+          "class": "text-base font-semibold leading-7 text-indigo-600"
+        },
+        "p1": {
+          "value": "Everything you need to deploy your app",
+          "class": "mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+        },
+        "p2": {
+          "value": "Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.",
+          "class": "mt-6 text-lg leading-8 text-gray-600"
+        },
+        "ft1": {
+          "value": "Push to deploy"
+        },
+        "fd1": {
+          "value": "Push to deploy"
+        },
+        "ft2": {
+          "value": "Push to deploy"
+        },
+        "fd2": {
+          "value": "Push to deploy"
+        },
+        "ft3": {
+          "value": "Push to deploy"
+        },
+        "fd3": {
+          "value": "Push to deploy"
+        },
+        "ft4": {
+          "value": "Push to deploy"
+        },
+        "fd4": {
+          "value": "Push to deploy"
+        }
+      }
+    },
+    "forms": {
+      "a1": [
+        {
+          "_key": "a1",
+          "name": "value",
+          "label": "Link",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_a1__value_1153686206781718800"
+        },
+        {
+          "_key": "a1",
+          "name": "href",
+          "label": "Link URL",
+          "$formkit": "text",
+          "id": "id_a1__href_2769260296387392500"
+        },
+        {
+          "_key": "a1",
+          "name": "target",
+          "label": "Target",
+          "$formkit": "select",
+          "options": [
+            "_self",
+            "_blank",
+            "_parent",
+            "_top"
+          ],
+          "id": "id_a1__target_3562335969734120400"
+        },
+        {
+          "name": "class",
+          "label": "Style",
+          "$formkit": "text",
+          "_key": "a1",
+          "id": "id_a1__class_5295401338248673000"
+        }
+      ],
+      "h2": [
+        {
+          "_key": "h2",
+          "name": "value",
+          "label": "Heading",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_h2__value_979813065659040900"
+        },
+        {
+          "name": "class",
+          "label": "Style",
+          "$formkit": "text",
+          "_key": "h2",
+          "id": "id_h2__class_2934506933768712000"
+        }
+      ],
+      "p1": [
+        {
+          "_key": "p1",
+          "name": "value",
+          "label": "Paragraph",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_p1__value_1253945166593824000"
+        },
+        {
+          "name": "class",
+          "label": "Style",
+          "$formkit": "text",
+          "_key": "p1",
+          "id": "id_p1__class_8894918601504842000"
+        }
+      ],
+      "p2": [
+        {
+          "_key": "p2",
+          "name": "value",
+          "label": "Paragraph",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_p2__value_4131447870456475000"
+        },
+        {
+          "name": "class",
+          "label": "Style",
+          "$formkit": "text",
+          "_key": "p2",
+          "id": "id_p2__class_3573205252459441700"
+        }
+      ],
+      "ft1": [
+        {
+          "_key": "ft1",
+          "name": "value",
+          "label": "Section",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_ft1__value_2209658670101479700"
+        }
+      ],
+      "fd1": [
+        {
+          "_key": "fd1",
+          "name": "value",
+          "label": "Section",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_fd1__value_9842185490377734000"
+        }
+      ],
+      "ft2": [
+        {
+          "_key": "ft2",
+          "name": "value",
+          "label": "Section",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_ft2__value_742144368620147800"
+        }
+      ],
+      "fd2": [
+        {
+          "_key": "fd2",
+          "name": "value",
+          "label": "Section",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_fd2__value_9383765576404679000"
+        }
+      ],
+      "ft3": [
+        {
+          "_key": "ft3",
+          "name": "value",
+          "label": "Section",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_ft3__value_9528421243517393000"
+        }
+      ],
+      "fd3": [
+        {
+          "_key": "fd3",
+          "name": "value",
+          "label": "Section",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_fd3__value_2414144566743325700"
+        }
+      ],
+      "ft4": [
+        {
+          "_key": "ft4",
+          "name": "value",
+          "label": "Section",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_ft4__value_5179393639408248000"
+        }
+      ],
+      "fd4": [
+        {
+          "_key": "fd4",
+          "name": "value",
+          "label": "Section",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_fd4__value_8153831259811901000"
+        }
+      ]
+    },
+    "form": [],
+    "title": "Feature1"
+  },
+  {
+    "id": 4126496409220079600,
+    "component": "Feature2",
+    "componentPath": "feature/Feature2",
+    "props": {
+      "c": {
+        "a1": {
+          "value": "Sample Link",
+          "class": "text-blue-500 underline my-8",
+          "href": "http://eraa.in",
+          "target": "_blank"
+        }
+      }
+    },
+    "forms": {
+      "a1": [
+        {
+          "_key": "a1",
+          "name": "value",
+          "label": "Link",
+          "type": "text",
+          "$formkit": "text",
+          "id": "id_a1__value_7311869219693709000"
+        },
+        {
+          "_key": "a1",
+          "name": "href",
+          "label": "Link URL",
+          "$formkit": "text",
+          "id": "id_a1__href_2819070732662152000"
+        },
+        {
+          "_key": "a1",
+          "name": "target",
+          "label": "Target",
+          "$formkit": "select",
+          "options": [
+            "_self",
+            "_blank",
+            "_parent",
+            "_top"
+          ],
+          "id": "id_a1__target_439705812709783040"
+        },
+        {
+          "name": "class",
+          "label": "Style",
+          "$formkit": "text",
+          "_key": "a1",
+          "id": "id_a1__class_4642540466517455000"
+        }
+      ]
+    },
+    "form": [],
+    "title": "Feature2"
+  },
+  {
+    "id": 6644183050037536000,
+    "component": "Footer1",
+    "componentPath": "footer/Footer1",
+    "props": {
+      "propName": "Craft your design."
+    },
+    "form": [
+      {
+        "name": "propName",
+        "label": "Heading",
+        "$formkit": "text"
+      }
+    ],
+    "title": "Footer 1",
+    "category": "career",
+    "type": "content",
+    "sort": "1",
+    "free": "true"
+  },
+  {
+    "id": 2300392358292899800,
+    "component": "Hero1",
+    "componentPath": "hero/Hero1",
+    "props": {
+      "title": "Beautiful Pages to",
+      "title2": "Tell Your Story!",
+      "subtitle": "It's never been easier to build beautiful websites that convey your message and tell your story.",
+      "image": "https://cdn.devdojo.com/images/november2020/hero-image.jpeg",
+      "video": "https://player.vimeo.com/video/252443587"
+    },
+    "form": [
+      {
+        "name": "title",
+        "label": "Title 1",
+        "$formkit": "text"
+      },
+      {
+        "name": "title2",
+        "label": "Title 2",
+        "$formkit": "text"
+      },
+      {
+        "name": "subtitle",
+        "label": "Sub Title",
+        "$formkit": "text"
+      },
+      {
+        "name": "image",
+        "label": "Upload Image",
+        "$formkit": "image"
+      },
+      {
+        "name": "video",
+        "label": "Add your video url",
+        "$formkit": "video"
+      }
+    ],
+    "title": "Hero Page 1",
+    "category": "protfolio",
+    "type": "hero",
+    "sort": "0",
+    "free": "true"
+  },
+  {
+    "id": 435856114430481800,
+    "component": "Hero2",
+    "componentPath": "hero/Hero2",
+    "props": {
+      "title": "Beautiful Pages to",
+      "title2": "Tell Your Story!",
+      "subtitle": "It's never been easier to build beautiful websites that convey your message and tell your story."
+    },
+    "form": [
+      {
+        "name": "title",
+        "$formkit": "text"
+      },
+      {
+        "name": "title2",
+        "$formkit": "text"
+      },
+      {
+        "name": "subtitle",
+        "$formkit": "text"
+      }
+    ],
+    "title": "Hero2"
+  },
+  {
+    "id": 9965938101148148000,
+    "component": "Hero3",
+    "componentPath": "hero/Hero3",
+    "props": {
+      "propName": "Craft your design."
+    },
+    "form": [
+      {
+        "name": "propName",
+        "label": "Heading",
+        "$formkit": "text"
+      }
+    ],
+    "title": "Hero Style 3",
+    "category": "hero",
+    "type": "content",
+    "sort": "1",
+    "free": "true"
+  },
+  {
+    "id": 9317728404429930000,
+    "component": "Logo1",
+    "componentPath": "logos/Logo1",
+    "props": {},
+    "form": [],
+    "title": "Logo1"
+  },
+  {
+    "id": 4537307496936302600,
+    "component": "Title1",
+    "componentPath": "titles/Title1",
+    "props": {
+      "h1": "The",
+      "h2": "Number One Source",
+      "h3": "for",
+      "h4": "all your design needs.",
+      "p": "Say hello to the number one source for all your design needs. Drag and drop designs, edit designs, and modify the components to help tell your story."
+    },
+    "form": [
+      {
+        "name": "h1",
+        "$formkit": "text"
+      },
+      {
+        "name": "h2",
+        "$formkit": "text"
+      },
+      {
+        "name": "h3",
+        "$formkit": "text"
+      },
+      {
+        "name": "h4",
+        "$formkit": "text"
+      },
+      {
+        "name": "p",
+        "$formkit": "text"
+      }
+    ],
+    "title": "Title1"
+  }
+]
